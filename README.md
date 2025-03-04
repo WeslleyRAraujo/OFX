@@ -24,7 +24,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 use  WeslleyRAraujo\OFX\OFX AS OFXReader;
 
-$OFXReader = new OFXReader(__DIR__.'/ofx.ofx');
+$OFXReader = new OFXReader(__DIR__.'/foo_bar.ofx');
 
 $transactionList = $OFXReader->getTransactionList();
 $headers = $OFXReader->getHeaders();
