@@ -129,7 +129,7 @@ class OFX
 
         $this->dateStart        = new \DateTimeImmutable($dateStart);
         $this->dateEnd          = new \DateTimeImmutable($dateEnd);
-        $this->transactionList  = $this->bodyContent->BANKMSGSRSV1->STMTTRNRS->STMTRS->BANKTRANLIST;
+        $this->transactionList  = $this->bodyContent->BANKMSGSRSV1->STMTTRNRS->STMTRS->BANKTRANLIST->STMTTRN;
         $this->org              = $this->bodyContent->SIGNONMSGSRSV1->SONRS->FI->ORG;
         $this->accountId        = $this->bodyContent->BANKMSGSRSV1->STMTTRNRS->STMTRS->BANKACCTFROM->ACCTID;
         $this->bankId           = $this->bodyContent->BANKMSGSRSV1->STMTTRNRS->STMTRS->BANKACCTFROM->BANKID;

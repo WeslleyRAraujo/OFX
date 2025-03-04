@@ -33,7 +33,6 @@ class OFXTest extends TestCase
         $transactionList = $OFX->getTransactionList();
         $transactionListAsArray = json_decode(json_encode($transactionList), true);
 
-        $this->assertIsObject($transactionList);
         $this->assertIsObject($OFX->getDateStart());
         $this->assertIsObject($OFX->getDateEnd());
         $this->assertIsArray($transactionListAsArray);
