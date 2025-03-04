@@ -14,7 +14,7 @@ A simple OFX file reader
 
 Installation
 ```bash
-  composer require weslleyraraujo/ofx
+composer require weslleyraraujo/ofx
 ```
 
 Use Example
