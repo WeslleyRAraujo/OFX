@@ -1,6 +1,6 @@
 {
     "name": "weslleyraraujo/ofx",
-    "description": "Simple OFX Files Reader",
+    "description": "Simple OFX File Reader",
     "autoload": {
         "psr-4": {
             "WeslleyRAraujo\\OFX\\": "src/",
