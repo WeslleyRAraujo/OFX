@@ -1,0 +1,19 @@
+{
+    "name": "weslleyraraujo/ofx",
+    "description": "Simple OFX Files Reader",
+    "autoload": {
+        "psr-4": {
+            "WeslleyRAraujo\\OFX\\": "src/",
+            "WeslleyRAraujo\\OFX\\Core\\": "src/Core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WeslleyRAraujo",
+            "email": "weslleyronaldaraujodev@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "12.0"
+    }
+}
