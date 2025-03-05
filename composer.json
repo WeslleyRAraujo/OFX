@@ -1,6 +1,7 @@
 {
     "name": "weslleyraraujo/ofx",
     "description": "Simple OFX File Reader",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "WeslleyRAraujo\\OFX\\": "src/",
