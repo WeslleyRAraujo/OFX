@@ -99,7 +99,7 @@ class OFXContentFormatter
             $tagName = preg_replace("/[^A-Za-z0-9]/", '', reset($tagNameParts));
             $tagClosed = "</{$tagName}>";
             $hasClosedTag = strpos($this->content, $tagClosed) !== false;
-            if(!$hasClosedTag) {
+            if (!$hasClosedTag) {
                return "{$lineContent}{$tagClosed}";
             }
             return $lineContent;
